@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!--meta para adaptar el ancho de la pagina al dispositivo
+    para hacerlo responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container-fluid bg-primary py-5">
+        <div class="row">
+            <div class="col-md-12 mb-6 container text-white text-center">
+                    <h1 class="display-3">Bienvenidos</h1>
+                    <p class="lead">
+                        Formulario de Inscripción
+                    </p>
+                </div>
+                <div class="col-md-12 mb-6 text-center">
+                    <img src="/Imagenes/logo iicana simple.png" class="img-fluid rounded-circle
+                    w-50">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+            <form class="needs-validation container-fluid" novalidate>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="validationTooltip01" placeholder="Ingrese su Nombre"
+                            required>
+                        <div class="valid-tooltip">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationTooltip02">Apellido</label>
+                        <input type="text" class="form-control" id="validationTooltip02"
+                            placeholder="Ingrese su Apellido" required>
+                        <div class="valid-tooltip">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="form-row container-fluid">
+                        <div class="col-md-12 mb-3">
+                            <label for="validationTooltip02">Email</label>
+                            <input type="text" class="form-control" id="validationTooltip02"
+                                placeholder="Ingrese su Email" required>
+                            <div class="valid-tooltip">
+                                Looks good!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationTooltip03">País</label>
+                        <input type="text" class="form-control" id="validationTooltip03" required>
+                        <div class="invalid-tooltip">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationTooltip04">Ciudad</label>
+                        <select class="custom-select" id="validationTooltip04" required>
+                            <option selected disabled value="">Seleccione...</option>
+                            <option>Córdoba</option>
+                            <option>Tucumán</option>
+                            <option>Buenos Aires</option>
+                            <option>Tierra del Fuego</option>
+                        </select>
+                        <div class="invalid-tooltip">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationTooltip05">Código Postal</label>
+                        <input type="text" class="form-control" id="validationTooltip05" required>
+                        <div class="invalid-tooltip">
+                            Please provide a valid zip.
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-success" type="submit">Guardar</button>
+                <button class="btn btn-warning" type="reset">Borrar</button>
+            </form>
+
+
+
+
+            <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+                crossorigin="anonymous"></script>
+
+            <!-- Option 2: Separate Popper and Bootstrap JS -->
+            <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
